@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #272630;
+  --secondary-color: #e7e5e5;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -17,6 +17,7 @@ h3 {
 }
 
 h1 {
+  padding-top: 150px;
   font-size: 96px;
 }
 
@@ -98,6 +99,7 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
