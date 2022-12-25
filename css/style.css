@@ -60,8 +60,9 @@ p {
 }
 
 .about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
 }
 
 .homepage-link {
@@ -87,9 +88,6 @@ p {
   text-decoration: none;
 }
 
-.email-link:hover {
-  text-decoration: underline;
-}
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -157,7 +155,7 @@ p {
   padding: 15px 30px;
 }
 footer .social-links a {
-  margin: 50px;
+  margin: 10px;
   color: var(--branding-color);
   background: var(--secondary-color);
   padding: 10px 14px;
